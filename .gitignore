@@ -1,0 +1,5 @@
+node_modules/
+package-lock.json
+smoke_test.mjs
+*.log
+.DS_Store

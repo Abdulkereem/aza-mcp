@@ -1,0 +1,64 @@
+{
+  "name": "aza-mcp",
+  "version": "1.0.0",
+  "description": "Aza MCP server — buy airtime, data and pay bills from your own Azabill wallet, right inside your code editor (Claude, Cursor, VS Code, Windsurf). Model Context Protocol server for Nigerian airtime & data top-ups.",
+  "type": "module",
+  "bin": {
+    "aza-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai-agent",
+    "llm-tools",
+    "claude",
+    "claude-desktop",
+    "cursor",
+    "vscode",
+    "windsurf",
+    "azabill",
+    "aza",
+    "airtime",
+    "buy-airtime",
+    "buy-data",
+    "data-bundle",
+    "recharge",
+    "top-up",
+    "vtu",
+    "bill-payment",
+    "nigeria",
+    "fintech",
+    "wallet"
+  ],
+  "homepage": "https://github.com/Abdulkereem/aza-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulkereem/aza-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdulkereem/aza-mcp/issues"
+  },
+  "author": "Azabill (CodeMatrix Consult LTD) <hello@azabill.ng> (https://azabill.ng)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  }
+}

@@ -11,7 +11,7 @@
  * drives only that user's wallet and is bounded by a per-key daily spend cap,
  * so it can never drain the account. We never see a password or a PIN here.
  *
- *   AZA_API_KEY   (required)  aza_live_…
+ *   AZA_API_KEY   (required)  aza_live_… (mint one at app.azabill.ng → Profile → Developers)
  *   AZA_API_BASE  (optional)  defaults to https://aza.azabill.ng/api
  */
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
@@ -26,7 +26,7 @@ if (!API_KEY) {
   // Fail loudly on stderr — stdout is the MCP transport and must stay clean.
   process.stderr.write(
     "[aza-mcp] AZA_API_KEY is not set. Mint one in the Aza web app " +
-      "(Settings → Developers) and add it to your MCP config.\n"
+      "(app.azabill.ng → Profile → Developers) and add it to your MCP config.\n"
   );
   process.exit(1);
 }

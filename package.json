@@ -1,6 +1,6 @@
 {
   "name": "aza-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aza MCP server — buy airtime, data and pay bills from your own Azabill wallet, right inside your code editor (Claude, Cursor, VS Code, Windsurf). Model Context Protocol server for Nigerian airtime & data top-ups.",
   "type": "module",
   "bin": {

@@ -116,7 +116,6 @@ Your editor will ask you to approve each action before it runs.
 | Env var | Required | Default | Notes |
 |---------|----------|---------|-------|
 | `AZA_API_KEY` | yes | — | Your `aza_live_…` key |
-| `AZA_API_BASE` | no | `https://aza.azabill.ng/api` | Override only for testing |
 
 ## Safety
 

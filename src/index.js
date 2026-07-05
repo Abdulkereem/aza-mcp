@@ -12,7 +12,6 @@
  * so it can never drain the account. We never see a password or a PIN here.
  *
  *   AZA_API_KEY   (required)  aza_live_… (mint one at app.azabill.ng → Profile → Developers)
- *   AZA_API_BASE  (optional)  defaults to https://aza.azabill.ng/api
  */
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
